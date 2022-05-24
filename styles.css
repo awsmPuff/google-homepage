@@ -74,7 +74,6 @@ form {
     border-radius: 30px;
     width: 580px;
     height: 43px;
-    outline: none;
 }
 
 #search-bar:hover {
@@ -98,16 +97,24 @@ form {
 }
 
 .choices {
-    width: 150px;
+    width: 145px;
     height: 35px;
     margin: 10px 3px;
     border-radius: 5px;
     border: none;
     background-color: #f8f9fb;
-    font-size: 15px;
-    padding: 3px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.choices a:active {
     color: black;
 }
+
+.choices a:visited {
+    color:black;
+}
+
 
 #languages {
     margin: 20px 5px;
