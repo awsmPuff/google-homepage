@@ -74,6 +74,7 @@ form {
     border-radius: 30px;
     width: 580px;
     height: 43px;
+    outline: none;
 }
 
 #search-bar:hover {
